@@ -1,0 +1,6 @@
+framework module Pods_SwiftSetup {
+  umbrella header "Pods-SwiftSetup-umbrella.h"
+
+  export *
+  module * { export * }
+}
