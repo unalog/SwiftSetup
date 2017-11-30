@@ -127,6 +127,9 @@
 		B52D152E1FCFED3A004D926A /* SwiftSetup */ = {
 			isa = PBXGroup;
 			children = (
+				B52D155F1FCFF020004D926A /* View */,
+				B52D155E1FCFF011004D926A /* ViewModel */,
+				B52D155D1FCFF002004D926A /* Model */,
 				B52D152F1FCFED3A004D926A /* AppDelegate.swift */,
 				B52D15311FCFED3A004D926A /* ViewController.swift */,
 				B52D15331FCFED3A004D926A /* Main.storyboard */,
@@ -153,6 +156,27 @@
 				B52D15511FCFED3A004D926A /* Info.plist */,
 			);
 			path = SwiftSetupUITests;
+			sourceTree = "<group>";
+		};
+		B52D155D1FCFF002004D926A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B52D155E1FCFF011004D926A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B52D155F1FCFF020004D926A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		BB9C817E1E89E8A5CAECD147 /* Frameworks */ = {
