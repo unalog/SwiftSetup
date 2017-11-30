@@ -16,6 +16,8 @@
 		B52D153A1FCFED3A004D926A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52D15381FCFED3A004D926A /* LaunchScreen.storyboard */; };
 		B52D15451FCFED3A004D926A /* SwiftSetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52D15441FCFED3A004D926A /* SwiftSetupTests.swift */; };
 		B52D15501FCFED3A004D926A /* SwiftSetupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52D154F1FCFED3A004D926A /* SwiftSetupUITests.swift */; };
+		B52D15611FCFF092004D926A /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52D15601FCFF092004D926A /* Networking.swift */; };
+		B52D15621FCFF092004D926A /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52D15601FCFF092004D926A /* Networking.swift */; };
 		FBB86A759A9635DD5922D505 /* Pods_SwiftSetup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C8B9D5BB6CD890B3E6D822 /* Pods_SwiftSetup.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,7 @@
 		B52D154B1FCFED3A004D926A /* SwiftSetupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSetupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52D154F1FCFED3A004D926A /* SwiftSetupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSetupUITests.swift; sourceTree = "<group>"; };
 		B52D15511FCFED3A004D926A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B52D15601FCFF092004D926A /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		D5C8B9D5BB6CD890B3E6D822 /* Pods_SwiftSetup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSetup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2394DA5FCF989B15D72A05 /* Pods-SwiftSetupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSetupTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftSetupTests/Pods-SwiftSetupTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -161,6 +164,7 @@
 		B52D155D1FCFF002004D926A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B52D15601FCFF092004D926A /* Networking.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -500,6 +504,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52D15611FCFF092004D926A /* Networking.swift in Sources */,
 				B52D15321FCFED3A004D926A /* ViewController.swift in Sources */,
 				B52D15301FCFED3A004D926A /* AppDelegate.swift in Sources */,
 			);
@@ -510,6 +515,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B52D15451FCFED3A004D926A /* SwiftSetupTests.swift in Sources */,
+				B52D15621FCFF092004D926A /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
