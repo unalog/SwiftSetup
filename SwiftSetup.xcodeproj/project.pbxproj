@@ -18,6 +18,8 @@
 		B52D15501FCFED3A004D926A /* SwiftSetupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52D154F1FCFED3A004D926A /* SwiftSetupUITests.swift */; };
 		B52D15611FCFF092004D926A /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52D15601FCFF092004D926A /* Networking.swift */; };
 		B52D15621FCFF092004D926A /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52D15601FCFF092004D926A /* Networking.swift */; };
+		B52D15641FCFF459004D926A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52D15631FCFF459004D926A /* ViewModel.swift */; };
+		B52D15651FCFF459004D926A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52D15631FCFF459004D926A /* ViewModel.swift */; };
 		FBB86A759A9635DD5922D505 /* Pods_SwiftSetup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C8B9D5BB6CD890B3E6D822 /* Pods_SwiftSetup.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,7 @@
 		B52D154F1FCFED3A004D926A /* SwiftSetupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSetupUITests.swift; sourceTree = "<group>"; };
 		B52D15511FCFED3A004D926A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B52D15601FCFF092004D926A /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		B52D15631FCFF459004D926A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		D5C8B9D5BB6CD890B3E6D822 /* Pods_SwiftSetup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSetup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2394DA5FCF989B15D72A05 /* Pods-SwiftSetupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSetupTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftSetupTests/Pods-SwiftSetupTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,7 +137,6 @@
 				B52D155E1FCFF011004D926A /* ViewModel */,
 				B52D155D1FCFF002004D926A /* Model */,
 				B52D152F1FCFED3A004D926A /* AppDelegate.swift */,
-				B52D15311FCFED3A004D926A /* ViewController.swift */,
 				B52D15331FCFED3A004D926A /* Main.storyboard */,
 				B52D15361FCFED3A004D926A /* Assets.xcassets */,
 				B52D15381FCFED3A004D926A /* LaunchScreen.storyboard */,
@@ -172,6 +174,7 @@
 		B52D155E1FCFF011004D926A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				B52D15631FCFF459004D926A /* ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 		B52D155F1FCFF020004D926A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B52D15311FCFED3A004D926A /* ViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -506,6 +510,7 @@
 			files = (
 				B52D15611FCFF092004D926A /* Networking.swift in Sources */,
 				B52D15321FCFED3A004D926A /* ViewController.swift in Sources */,
+				B52D15641FCFF459004D926A /* ViewModel.swift in Sources */,
 				B52D15301FCFED3A004D926A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,6 +520,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B52D15451FCFED3A004D926A /* SwiftSetupTests.swift in Sources */,
+				B52D15651FCFF459004D926A /* ViewModel.swift in Sources */,
 				B52D15621FCFF092004D926A /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
